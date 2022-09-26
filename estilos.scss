@@ -1,0 +1,344 @@
+/*Cuerpo*/
+body{
+    margin: 0px;
+}
+
+/*Cabecera*/
+.Cabecera{
+}
+
+/*Caja donde se encuentra la info*/
+.Cabecera__Info{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-bottom: 1px solid gray;
+}
+
+/*Caja donde se posiciona el Logo*/
+.Cabecera__Info__Logo{}
+
+/*Imagen/Logo*/
+.Cabecera__Info__Logo__Imagen{}
+
+/*Caja donde se posicionan cajas con info*/
+.Cabecera__Info__Textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Caja con texto*/
+.Cabecera__Info__Texto{
+    margin-left: 15px;
+}
+
+/*Texto 1*/
+.Cabecera__Info__Texto__Texto1{
+    color: gray;
+    margin-top: 18px;
+}
+
+/*Texto 2*/
+.Cabecera__Info__Texto__Texto2{
+    color: gray;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+/*Caja donde se posiciona el Menú de la cabecera*/
+.Cabecera__Menú{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*Caja donde se posiciona el Menú*/
+.Cabecera__Menú__Menú{
+    background-color: lawngreen;
+    height: 70px;
+    width: 70px;
+}
+
+/*Texto del Menú*/
+.Cabecera__Menú__Menú__Texto{
+    margin-bottom: 0px;
+}
+
+/*Imagen del Menú*/
+.Cabecera__Menú__Menú__Imagen{
+    height: 30px;
+    width: 30px;
+}
+
+/*Caja opción del Menú*/
+.Cabecera__Menú__Opción{}
+
+/*Texto de la opción*/
+.Cabecera__Menú__Opción__Texto{
+    font-size: 15px;
+    color: gray;
+}
+
+/*Cuerpo*/
+.Cuerpo{
+    background-color: lightgrey;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+/*Opciones del cuerpo*/
+.Cuerpo__Opciones{
+    border-bottom: 1px solid gray ;
+}
+
+/*Caja donde se posiciona el inicio*/
+.Cuerpo__Opciones__Inicio{}
+
+/*Texto del inicio*/
+.Cuerpo__Opciones__Inicio__Texto{
+    margin: 0px;
+
+}
+
+/*Caja donde se posicionan los bloques*/
+.Cuerpo__Opciones__Bloques{
+    display: flex;
+    flex-direction: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Bloque*/
+.Cuerpo__Opciones__Bloque{
+    margin-right: 15px;
+}
+
+
+/*Botón(dentro del bloque)*/
+.Cuerpo__Opciones__Bloque__Botón{
+    background-color: lawngreen;
+    border-color: lawngreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*Texto del botón*/
+.Cuerpo__Opciones__Bloques__Botón__Texto{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+            /*Viajes*/
+
+/*Caja de todos los viajes*/
+.Cuerpo__Viajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Caja de cada opción de viaje*/
+.Cuerpo__Viajes__Opción{
+    background-color: white;
+    width: calc(50% - 20px);
+    margin: 10px;
+}
+
+/*Caja donde se posiciona la imagen*/
+.Cuerpo__Viajes__Opción__Img{}
+
+/*Imagen*/
+.Cuerpo__Viajes__Opción__Img__img{
+    width: 100%;
+}
+
+/*Caja donde se posiciona la info del viaje*/
+.Cuerpo__Viajes__Opción__Info{
+    padding: 10px;
+}
+
+/*Título del viaje*/
+.Cuerpo__Viajes__Opción__Info__Título{
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*Subtítulo del viaje*/
+.Cuerpo__Viajes__Opción__Info__Subtítulo{
+    color: gray;
+    margin-top: 0px;
+}
+
+/*Caja donde se posiciona la info del precio del viaje*/
+.Cuerpo__Viajes__Opción__Info__Precio{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Caja donde se posiciona el precio del viaje*/
+.Cuerpo__Viajes__Opción__Info__Precio__€{}
+
+/*Texto 1*/
+.Cuerpo__Viajes__Opción__Info__Precio__€__1{
+    color: gray;
+    margin: 0px;
+}
+
+/*Texto 2*/
+.Cuerpo__Viajes__Opción__Info__Precio__€__2{
+    color: lawngreen;
+    margin: 0px;
+}
+
+/*Caja donde se posiciona más info*/
+.Cuerpo__Viajes__Opción__Info__Precio__Info{}
+
+/*Botón*/
+.Cuerpo__Viajes__Opción__Info__Precio__Info__Botón{
+    border-color: lawngreen;
+  
+}
+
+/*Texto del botón*/
+.Cuerpo__Viajes__Opción__Info__Precio__Info__Botón__txt{
+    color: lawngreen;
+}
+
+
+
+
+/*Caja donde se encaja el texto de ofertas*/
+.Cuerpo__Ofertas{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+/*Título de la caja*/
+.Cuerpo__Ofertas__Título{
+    color: gray;
+    font-size: 20px;
+}
+
+/*Texto informativo*/
+.Cuerpo__Ofertas__Texto{
+    color: gray;
+}
+
+/*Caja donde se encuentran las cajas de info-1*/
+.Cuerpo__Info-1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+/*Caja info-1*/
+.Cuerpo__Info-1__Caja{
+    text-align: center;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Símbolo de la caja*/
+.Cuerpo__Info-1__Caja__Símbolo{
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+}
+
+/*Texto de la caja*/
+.Cuerpo__Info-1__Caja__Texto{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*Caja donde se encuentran las cajas de info-2*/
+.Cuerpo__Info-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+/*Caja info-2*/
+.Cuerpo__Info-2__Caja{}
+
+/*Imagen*/
+.Cuerpo__Info-2__Caja__img{}
+
+
+/*Caja donde se encuentran las cajas de info-3*/
+.Cuerpo__Info-3{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Caja info-3-1*/
+.Cuerpo__Info-3__Caja-1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/*Caja info-3-2*/
+.Cuerpo__Info-3__Caja-2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+/*Caja info-3-3*/
+.Cuerpo__Info-3__Caja-3{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 220px;
+}
+
+.Cuerpo__Info__Caja-T{
+    width: 220px;
+}
+
+/*Título*/
+.Cuerpo__Info-3__Caja__Título{
+    color: lawngreen;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*Subtítulo*/
+.Cuerpo__Info-3__Caja__Subtítulo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*Pie de página*/
+
+.Pie-Página{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.Pie-Página__img{
+    margin: 20px;
+}
